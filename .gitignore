@@ -22,14 +22,6 @@ DerivedData
 *.xcuserstate
 project.xcworkspace
 
-# packages/sl-core/android/IntelliJ
-#
-.idea
-.gradle
-local.properties
-*.iml
-packages/sl-core/android/app/build
-
 # node.js
 #
 node_modules/
@@ -40,98 +32,5 @@ yarn-error.log
 buck-out/
 \.buckd/
 
-# fastlane
-#
-# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
-# screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Gitignore.md
-
-fastlane/report.xml
-fastlane/Preview.html
-
-packages/sl-core/ios/fastlane/report\.xml
-
-packages/sl-core/ios/fastlane/README\.md
-
-packages/sl-core/ios/fastlane/builds/
-
-packages/sl-core/ios/fastlane/mkmf.log
-
-
-\.vscode/\.react/index\.packages/sl-core/ios\.map
-
-\.vscode/\.react/debuggerWorker\.js
-
-\.vscode/\.react/index\.packages/sl-core/ios\.bundle
-
-packages/sl-core/ios/vendor
-packages/sl-core/ios/.bundle
-
-
-# 最后一次commit_id
-scripts/*.txt
-
-# react-native
-main.jsbundle
-/packages/sl-core/ios/fastlane/AppIcon.png
-
-/flow-coverage
-/packages/sl-core/android/.project
-/packages/sl-core/android/app/.project
-/packages/sl-core/android/app/bin
-/packages/sl-core/android/.settings
-/packages/sl-core/android/app/.classpath
-/packages/sl-core/android/app/.settings
-/.vscode/.react
-
-
 # build
 /build/
-packages/sl-core/android/build/
-packages/sl-core/ios/build/
-
-
-packages/sl-core/ios/Carthage
-
-/packages/sl-core/ios/fastlane/packages/sl-core/ios-secret
-/packages/*/coverage/
-/src/components/login/img/ic_logo@2x.png
-/src/components/login/img/ic_logo@3x.png
-/packages/sl-core/android/app/src/main/res/drawable-xhdpi/app_logo.png
-/packages/sl-core/android/app/src/main/res/drawable-xhdpi/start_page_img_path.png
-# /packages/sl-core/android/app/src/main/java/com/yunti/lfs/PushActivity.java
-# /packages/sl-core/android/app/src/main/java/com/yunti/lfs/wxapi/WXEntryActivity.java
-# /packages/sl-core/android/app/src/main/java/com/yunti/lfs/wxapi/WXPayEntryActivity.java
-packages/sl-core/android/app/src/main/res/drawable-mdpi/src_components*.png
-packages/sl-core/android/app/src/main/res/drawable-mdpi/src_images*.png
-packages/sl-core/android/app/src/main/res/drawable-mdpi/node_modules*.png
-packages/sl-core/android/app/src/main/res/drawable-hdpi/node_modules*.png
-packages/sl-core/android/app/src/main/res/drawable-xhdpi/src_components*.png
-packages/sl-core/android/app/src/main/res/drawable-xhdpi/src_images*.png
-packages/sl-core/android/app/src/main/res/drawable-xhdpi/node_modules*.png
-packages/sl-core/android/app/src/main/res/drawable-xhdpi/libraries_ytcomponents*.png
-packages/sl-core/android/app/src/main/res/drawable-xxhdpi/src_images*.png
-packages/sl-core/android/app/src/main/res/drawable-xxhdpi/src_components*.png
-packages/sl-core/android/app/src/main/res/drawable-xxhdpi/node_modules*.png
-packages/sl-core/android/app/src/main/res/drawable-xxhdpi/libraries_ytcomponents*.png
-packages/sl-core/android/app/src/main/res/drawable-xxxhdpi/node_modules*.png
-packages/sl-core/android/app/config.gradle
-packages/sl-core/android/app/src/main/assets/*.bundle
-packages/sl-core/android/app/src/main/assets/appext.json
-packages/sl-core/android/app/src/main/assets/config.json
-lerna-debug.log
-
-
-android/app/build
-android/build
-packages/sl-core/android/app/config.json
-packages/sl-core/android/app/src/main/AndroidManifest.xml
-packages/sl-core/android/gradle.properties
-packages/sl-core/android/app/src/main/java/cn/bookln/saas/sjj8
-
-packages/*/ios/Pods
-packages/sl-core/ios/libs/FoxitRDK.framework
-
-tmp/*
-!tmp/README.md
